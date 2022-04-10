@@ -1,30 +1,4 @@
-'''from PIL import Image, ImageDraw, ImageFont
-import time, ctypes
-def hex(s):
-        n = int(s.lstrip('#'), 16)
-        return (n >> 16, (n >> 8) & 0xff, n & 0xff)
-print('start')
-# Создаем белый квадрат
-# Easter Sweet.ttf
-
-font = ImageFont.truetype("C:\\Users\\maste\\Desktop\\Easter Sweet\\Easter Sweet.ttf", size=18)
-speed = 10
-curr = 0
-time.sleep(10)
-for i in range(100):
-	img = Image.open('bg color.png')    
-	idraw = ImageDraw.Draw(img)
-	#idraw.rectangle((curr, 10, 100, 100), fill='blue')
-	text = f'Count: {curr//10}'
-	idraw.text((940, 520), text, font=font)
-	img.save('1.png')
-	ctypes.windll.user32.SystemParametersInfoW(0x0014, 0, 'C:\\Users\\maste\\Desktop\\1.png', 2)
-	curr+=speed
-	time.sleep(0.1)
-#img.save('rectangle.png')'''
-
-
-# 2261 5087
+# Answer: 2261 5087
 
 a = []
 n = 0
