@@ -5,8 +5,7 @@ n = 0
 
 with open('26.txt') as f:
 	n = int(f.readline())
-	for i in range(n):
-		a.append([])
+	a = [ [] for i in range(n) ]
 
 	for i in f:
 		c = list(map(int, i.split()))
